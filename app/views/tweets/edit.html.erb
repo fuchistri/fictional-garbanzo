@@ -1,0 +1,12 @@
+<h1>Editing tweet</h1>
+
+<%= render "form", tweet: @tweet %>
+<%= @tweet.created_at %>
+
+
+<br>
+
+<div>
+  <%= link_to "Mostrar", @tweet %> |
+  <%= link_to "Atrás", tweets_path %>
+</div>
